@@ -2,7 +2,7 @@
 * {
     font-family: sans-serif,  Georgia;
 }
-/* Raleway, */
+
 
 
 
@@ -230,97 +230,18 @@ hr {
 
 /* SECTION TWO STARTED I.E HERO PAGE */
 
-.scroll-images-background{
-
-    padding: 80px 13%;
+.hero-section{
     width: 100%;
-    height: 685px;
-    position: relative;
-    top:  -85px;
-    /* background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("images/megaSummit.jpg"); */
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
+    margin-top: -150px;
+    
     box-sizing: border-box;
-    z-index: 2.5;
-
-    
 }
 
-.scroll-images-writeup-left {
-    padding-top: 15%;
-    text-shadow: 0px 0px 1px black;  
+.About-hero-img {
+width: 100%;
+height: auto;
 }
 
-.hero-head{
-    color: #6BC329;
-    font-size: 42px;
-    font-weight:600;
-    letter-spacing: 3px;
-    font-family: Raleway;
-}
-
-.Hero-head-span {
-    color: white;
-}
-
-.hero-content{
-    line-height: 30.24px;
-    font-size:16.6px;
-    letter-spacing: 1px;
-    font-weight:500;
-    width: 500px;
-    max-width: 90%;
-    
-}
-
-.Hero-footer{
-    display: flex;
-    padding: 4px 0px;
-   
-}
-
-.Hero-footer a {
-    text-decoration: none;
-    color: #ffffff;
-    font-size: 15px;
-    letter-spacing: 4px;
-    font-weight: 400;
-}
-.Hero-footer-line{
- width: 80%;
- height: 2px;
- position: relative;
- left: 105%;
- top: -50% ;
- border-radius: 30px;
- background-color: #ffffff;
- 
-}
-
-
-#scroll-images-writeup-right-line1, #scroll-images-writeup-right-line2, #scroll-images-writeup-right-line3{
-    width: 30px;
-    height: 6px;
-    border-radius: 1px;
-    background-color: #ffffff;
-}
-
-.scroll-images-writeup-right{
-    display: flex;
-    gap: 23px;
-    flex-direction: column;
-    position: absolute;
-    right: 150px;
-    top: 340px;
-}
-
-.hero-color-fill {
-    animation-name: color-fill;
-    animation-duration: 0.3s;
-    animation-timing-function: linear;
-    background-image: linear-gradient(90deg, rgba(107, 195, 41, 1) 100%, rgba(107, 195, 41, 0)100%);
-}
 
 /* THE SECTION THREE BEGINS HERE AFTER THE HERO PAGE */
 
