@@ -290,8 +290,8 @@ height: auto;
     color: black;
 }
 
-.video-and-content iframe {
-    width: 100%;
+.video-and-content p {
+    width: calc(100% - 463px) ;
 }
 
 
