@@ -310,12 +310,29 @@ height: auto;
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
-    height: 300px;
+    height: 180px;
     margin-top: -20px;
     text-align: center;
-    
+    padding: 70px 13% 30px;
+  
     
 }
+
+.we-are-change-agents h1{
+font-size: 28px;
+line-height: 35px;
+font-family: Raleway;
+font-weight: 700;
+
+}
+.we-are-change-agents p{
+    font-size: 18px;
+    line-height: 36px;
+    font-weight: 400;
+    vertical-align: baseline;
+    
+    }
+
 
 
 
