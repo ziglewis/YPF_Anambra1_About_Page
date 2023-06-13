@@ -54,8 +54,7 @@
             0% {  background-image: linear-gradient(90deg, rgba(107, 195, 41, 1) 100%, rgba(107, 195, 41, 0)100%);}
                   }
         
-
-
+    
 
 section {
     padding-top: 150px;
@@ -77,7 +76,6 @@ body{
     height: 60px;
 
 }
-
 
 
 
@@ -145,6 +143,7 @@ body{
 .Other-bars a, #Event-drop-down a, .pop-up a{
     text-decoration: none;
     color: white;
+    
 }
 
 #Event-drop-down {
@@ -162,11 +161,14 @@ body{
     text-align: justify;
     justify-content: center;
     font-size: 14px;
+   
+    
   }
 
   #Event-drop-down div { 
     padding: 5px 15px;
     cursor:pointer;
+    
     
   }
   
@@ -206,6 +208,7 @@ hr {
     }
 
 .pop-up {
+    
     text-align: center;
     padding: 2%;
     background-color: #296a12;
@@ -217,6 +220,7 @@ hr {
     box-sizing: border-box;
     visibility: hidden;
     cursor:pointer;
+    
 
 }
 #pop-up-Event-drop-down {
@@ -244,395 +248,52 @@ height: auto;
 
 
 /* THE SECTION THREE BEGINS HERE AFTER THE HERO PAGE */
-
-.section-3-WeAreYPF {
-    display: grid;
-    background-color: #ffffff;
-    grid-template-columns: repeat(auto-fit, minmax( 450px, 1fr));
-    justify-content:center;
-    color: rgb(98, 98, 98);
-    gap: 2%;
-    padding:  190px 12% 60px;
-    font-size: 16px;
-    margin-top: -230px;
-    z-index: 2;
-    line-height: 30px;
-    
-}
-
-.section-3-WeAreYPF-left, .section-3-WeAreYPF-right {
-      text-align: left;
-      
-}
-
-
-.section-3-WeAreYPF-left h1 {
-    color: black;
-    font-size: 26Px;
-    text-align:left;
-    font-family: Raleway;
-}
-
-.section-3-WeAreYPF-left button {
-    color: white;
-    font-weight: bold;
-    background-color: #6bc329;
-    font-size: 15Px;
-    padding: 18px 30px;
-    border: none;
-}
-
-.section-3-WeAreYPF-right img {
-    margin-top: 25px;
-    width: 100%;
-    height: auto;
-}
-/* SECTION THREE STYLING ENDED  */
-
-.our-drive {
-
-    background-color: #f0f0f0 ;
-    padding: 40px 0px 50px;
-    color: black;
+.About-us-text {
     text-align: center;
+    background-color: #ffffff;
     margin-top: -5px;
-}
-
-/* .myOurDriveSectionBoxes  */
-
-.our-drive-3box-container{
-   
-    /* display: flex; */
-    display: grid;
-    /* grid-template-columns: auto auto auto; */
-    grid-template-columns: repeat(auto-fit, minmax( 300px, 1fr));
-    gap: 30px;
-    box-sizing: border-box;
-    padding: 20px 12% 40px;
-    text-align: center;
-    box-sizing: border-box;
+    padding: 20px 12%;
 
 }
-.our-drive h2 {
-    font-size: 28px;
-    line-height: 35px;
-    font-family: Raleway;
-}
-
-.myOurDriveSectionBoxes {
-    
-    /* border: 3px solid red; */
-    
-    background-color: #ffffff;
-    min-width: 200px;
-    color: rgb(98, 98, 98);
-    padding: 35px 30px 60px;
-    line-height: 30px;
-    box-sizing: border-box;
-    font-size: 16px;
-}
-
-.myOurDriveSectionBoxes:hover, .myOurDriveSectionBoxes:hover h2, .myOurDriveSectionBoxes:hover h1{
-    background-color: #6bc329;
-    color: #ffffff ;
-}
-
-.myOurDriveSectionBoxes h1{ 
+.About-us-text h1 {
     color: #6bc329;
-    font-size: 2.5rem;
-
-}
-
-.myOurDriveSectionBoxes h2{
-
-    color: black;
-    font-size: 18px;
-    line-height: 14.5px;
-    font-family: inherit;
-
-}
-
-/* SECTION 5 WE HAVE SOMETHING TO BE PROUD OF */
-
-.our-pride-section{
-    text-align: center;
-    padding: 50px 12%;
-    background:  linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url("images/backgroundImage2.jpg");
-    background-position: center;
-    background-repeat: no-repeat;
-    background-attachment: fixed; 
-    background-size: cover;
-
-}
-
-.our-pride-section h2{ 
-
-    color: #6bc329;
-    line-height: 35px;
-    letter-spacing: 0.5px;
     font-size: 30px;
-    font-weight: 600;
     font-family: Raleway;
-}
-
-
-.our-pride-section-groups {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax( 155px, 1fr));
-    gap: 0px;
-    margin-top: -30px;
-
-}
-
-.our-pride-section-groups  h1{ 
-    
-    font-size: 30px;
     line-height: 24px;
     letter-spacing: 0.5px;
-    font-weight: 600px;
-    vertical-align: baseline;
-
-}
-.our-pride-section-groups  h2{ 
-
-    font-size: 35px;
-    line-height: 35px;
-    letter-spacing: 5px;
     font-weight: 600;
+    vertical-align: baseline;
+    text-transform: capitalize;
+}
+
+.About-us-text h2 {
+    color: black;
     margin-top: -10px;
-    font-family: inherit;
-
-}
-.our-pride-section-groups  h3{ 
-
-    font-size: 18px;
-    line-height: 16px;
+    font-size: 24px;
+    line-height: 19.2px;
+    letter-spacing: 4px;
     font-weight: 700;
-
-}
-
-/* SECTION 6 OF WHAT WE DO STARTS HERE */
-
-.what-we-do {
-
-    text-align: center;
-    background-color: #ffffff;
-    color: black;
-    margin-top: -40px;
-    padding-top: 50px;
-
-}
-
-.what-we-do-title{
-    
-    color:#6bc329;
-    font-size: 30px;
-    line-height: 24px;
-    letter-spacing: 0.5px;
-    font-family: Raleway;
-
-}
-
-.what-we-do-group {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax( 420px, 1fr));
-    grid-auto-rows: 238px;
-    padding: 50px 12%;
-    row-gap: 30px;
-    column-gap: 22px;
-
-}
-    
-.what-we-do-group-items {
-    display: flex;
-    background-color: black;
-    box-sizing: border-box;
-}
-
-.what-we-do-group-items-image {
-    width: 100%;
-    height: 100%;
-    overflow: hidden;
-    z-index: 1;
-    /* background-image: url("images/backgroundImage4.jpeg"); */
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-}
-
- .what-we-do-fig-1{
-    background-image: url("images/skill4.jpg");
-} 
-
-.what-we-do-fig-2{
-    background-image: url("images/megaSummit.jpg");
-} 
-
-.what-we-do-fig-3{
-    background-image: url("images/career.jpeg");
-} 
-
-.what-we-do-fig-4{
-    background-image: url("images/skill-Aquizition.jpg");
-} 
-
-.what-we-do-group-items-image img {
-    width: 400px;
-    height: 100%;
-    z-index: -1;
-    display: none;
-}
-
-.what-we-do-group-items-writeup{
-    transition: 0.3s;
-background-color: #f0f0f0;
-padding: 15px 5%;
-width: 100%;
-z-index: 2;
-margin-left: -5%;
-margin-bottom: -1px;
-margin-right: -1px;
-margin-top: -1px;
-min-width: 200px;
-box-sizing: border-box;
-clip-path: polygon(100% 0, 100% 100%, 6% 100%, 6% 55%, 0 50%, 6% 45%, 6% 0);
-
-}
-
-.what-we-do-group-items-writeup:nth-child(1){
-    clip-path: polygon(94% 55%, 94% 100%, 0 100%, 0 0, 94% 0, 94% 45%, 100% 50%);
-    margin-left: -1px;
-    margin-right: -5%;
-        }
-
-.what-we-do-group-items-writeup h2{
-    color: #6bc329;
-    font-size: 30px;
-    line-height: 30px;
-    font-weight: 600;
-
-
-}
-
-.what-we-do-group-items-writeup p{
- color: rgb(153,153,153);
- font-size: 16px;
-line-height: 25.2px;
-font-weight: 400;
-}
-
-.what-we-do-group-items:hover .what-we-do-group-items-writeup{
-
-    transition: 0.3s;
-    width: 130%;
-    background-color:  rgb(37, 34, 34);
-    /* background-image: linear-gradient(rgba(43, 32, 206, 0.6),rgba(189, 25, 25, 0.6)); */
-}
-
-.what-we-do-group-items:hover .what-we-do-group-items-image {
-
-    /* border: 4px solid yellow; */
-    background-color: black;
-   opacity: 0.5;
-
- }
-
- .what-we-do-group-items:hover .what-we-do-group-items-writeup-arrow-right, .what-we-do-group-items:hover .what-we-do-group-items-writeup-arrow-left {
-        transition: 0.3s;
-        color: rgb(37, 34, 34);
-
- }
-
-
- /* SECTION 6 OF WHAT WE DO ENDS HERE */
-
-/* SECTION 7 OF OUR TESTIMONIALS SLIDING IN STARTS HERE  */
-
-
-
-.testimonials-section{
-    text-align: center;
-    padding: 15px 12%;
-    background-color: #ffffff;
-    color: #6bc329;
-    /* border: 3px solid yellow; */
-}
-
-
-.testimonials-section h2 {
-    font-size: 30px;
-    line-height: 24px;
-    letter-spacing: 00.5px;
-    font-weight: 600;
     text-transform: capitalize;
-    /* margin-bottom: 45px; */
-    padding-bottom: 2px;
-    font-family: Raleway;
-
-}
-
-.each-testimonial-box {
-    
-    background-color: #f0f0f0;
-    color: #848484;
-     /* width: 500px;  */
-    box-sizing: border-box;
-    padding: 20px 50px;
-}
-
-.each-testimonial-box  p {
-    font-size: 16px;
-    line-height: 33px;
-    font-weight: 400px;    
-    text-align: justify;
-    
-
-}
-
-.each-testimonial-box  h4 {
-    font-size: 17px;
-    line-height: 25px;
     vertical-align: baseline;
-    letter-spacing: 00.5px;
-    font-weight: 700;
-    text-align: left;
-    color: black;
-    text-transform: uppercase;
-    margin: 30px 0px -20px;
-
-}
-.each-testimonial-box  h5 {
-    font-size: 13px;
-    letter-spacing: 0.8px;
-    font-weight: 400;
-    text-transform: capitalize;
-    text-align: left;
-    
 }
 
-.slide-button {
+.line {
+    width: 70px;
+    height: 2px;
+    background-color: black;
+    margin: 0px auto 100px;
+}
+
+.video-and-content {
     display: flex;
-    gap: 10px;
-    margin-top: 20px;
+    gap: 20px;
+    color: black;
 }
 
-.slide-button  button{
-    width: 36px;
-    height: 36px;
-    background-color: #6bc329;
-    border: none;
-    color: #cccccc;
-    font-weight: 300;
-    font-size: 20px;
+.video-and-content iframe {
+    width: 100%;
 }
 
-.swipe-left, .swipe-right {
-
-    visibility: hidden;
-
-}
-
-/* SECTION 7 OF OUR TESTIMONIALS SLIDING IN ENDS HERE  */
 
 /* SECTION 8 OF THE FOOTER STARTS HERE  */
 
