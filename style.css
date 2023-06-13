@@ -313,7 +313,7 @@ height: auto;
     height: 180px;
     margin-top: -20px;
     text-align: center;
-    padding: 70px 13% 30px;
+    padding: 5% 13% ;
   
     
 }
@@ -528,9 +528,38 @@ footer p{
         flex-direction: column;
     }
 
+    .video-and-content p {
+        width: 100%;
+        color: rgb(153,153,153);
+        font-size: 18px;
+        line-height: 32.4px;
+        font-weight: 400px;
+        text-align: start;
+    }
+    iframe {
+        width: 100%
+    }
+
+    .About-us-text {
+        padding: 20px 13% 100px;
+    
+    }
+
 }
 
 /* second breakpoint query */
+@media (max-width: 995px) {
+
+    .video-and-content {
+        flex-direction: column;
+        gap: 30px;
+
+    }
+
+}
+
+
+
 @media (max-width: 800px) {
 
     .minimize-icon{
@@ -553,103 +582,19 @@ footer p{
         right: -1000px;
                  }
 
-    .scroll-images-background{
+.About-us-text {
+      padding: 20px 5% 100px;
+                
+     }
 
-        padding: 0px 80px 10px 30px;
-        width: 100%;
-        height: 360px;
-
-    }
-
-    .scroll-images-writeup-left {
-        padding-top: 70px;
- 
-    }
-    
-    .hero-head{
-        font-size: 26px;
-        font-weight:800;
-        letter-spacing: 1px;
-        text-align: left;
-        line-height: 25px;
-        vertical-align: baseline;
-    }
-
-    .scroll-images-writeup-right{
-         right: 5%;
-        top: 140px;
-    }  
-    
-    .what-we-do-group-items-writeup h2{
-            
-        font-size: 25px;
-        }
-
-
-.hero-content{
-    line-height: 26px;
-    font-size:16px;
-    letter-spacing: 1px;
-    width: 500px;
-    max-width: 90%;
-    
-}
-
-/* .Hero-footer{
-    display: flex;
-    padding: 4px 0px;
-   
-} */
-
-.Hero-footer a {
-    font-size: 13px;
-    letter-spacing: 2px;
-    font-weight: 400;
-    line-height: 30px;
-        } 
-
-        .section-3-WeAreYPF {
-            grid-template-columns: repeat(auto-fit, minmax( 100%, 1fr));
-            padding:  190px 5% 60px;    
-        }
- 
-        .our-drive-3box-container{
-   
-            grid-template-columns: repeat(auto-fit, minmax( 100%, 1fr));
-            gap: 30px;
-            box-sizing: border-box;
-            padding: 20px 5% 40px;
-        }
-
-        .our-pride-section{
-            padding: 50px 5%;
-            gap: 0px;
-            padding-bottom: 100px;
-        }
-
-      
-            
-        .what-we-do-group {
-            padding: 5px 5%;
-            grid-template-columns: repeat(auto-fit, minmax( 100%, 1fr));
-        }
-
+     .we-are-change-agents{
+        height: 300px;
+        padding: 5%;
         
-        .testimonials-section{
-
-            padding: 15px 5%;}
-
-            .contact-us {
-                display: flex;
-                padding: 60px 5%;
-                gap: 2%;
-                flex-direction: column;
-            }
-
-            .each-testimonial-box{
-                padding: 20px 8%;
-            }
+    }
             
+
+    
 
             footer {
                 
@@ -665,29 +610,8 @@ footer p{
 /* breakpoint three */
 @media (max-width: 360px) { 
 
-    .scroll-images-background{
-
-        padding: 0px 30px 10px 5px;
-        width: 100%;
-        height: 300px;
-
-    }
-
-    
-
-    .scroll-images-writeup-left {
-        padding-top: 40px;
- 
-    }
-
-    .scroll-images-writeup-right{
-        right: 3%;
-       top: 150px;
-   }
-
-   
-    
-  .minimize-icon{
+  
+      .minimize-icon{
 
     right: 2%;  }
 
@@ -695,72 +619,20 @@ footer p{
         letter-spacing: 0.9px;
         font-size: 8px;
     }
-    .hero-head{
-        font-size: 20px;
-}
 
-.hero-content{
-    line-height: normal;
-    font-size:15px;
-    font-weight:300;
-    width: 500px;
-    max-width: 90%;
-    
-}
-
-.Hero-footer a {
-    font-size: 11px;
-    letter-spacing: 0.5px;
-    font-weight: 400;
-    line-height: 30px;
-        }
-
-        .myOurDriveSectionBoxes {
-    
-            /* border: 3px solid red; */
-            min-width: 100%;
-            padding: 20px 2%;
-            
-        }
-
-        .what-we-do-group-items-writeup{
-            
-        padding: 10px 3%;
-        width: 100%;
-        min-width: 100%;
-        }
-
-
-    .what-we-do-group-items-writeup h2{
-            
-        font-size: 18px;
-        }
-
-        .our-drive h2 {
-            font-size: 20px;
-        }
-        .our-drive-3box-container h2 {
-            font-size: 18px;
-        }
-
-        .section-3-WeAreYPF-left h1, .testimonials-section h2, .what-we-do-title {
-    
-            font-size: 20Px;
-            
-        }
-
-
-
-
-        .our-pride-section h2{ 
-            font-size: 20px;
-           
-        }
-
-        /* .what-we-do-group-items-writeup h2{
-            
-            font-size: 25px;
-            } */
+    .we-are-change-agents{
+        height: 400px;
+        
+    }
+    .we-are-change-agents h1, .About-us-text h1 {
+        font-size:24px ;
+        
+    }
+    .About-us-text h2 {
+        font-size: 21px;
+        letter-spacing: 0.1px;
+    }
+   
 
             body {
                 overflow-x: hidden;
@@ -778,52 +650,22 @@ footer p{
         display: none;
     }
 
-    .scroll-images-background{
-
-        padding: 0px 30px 10px 5px;
-        height: 350px;
-
-    }
-
-        
-         
-        .our-pride-section-groups{
-            text-align: center;
-            margin-left: 0px ;
-        }
-
-        
-        
-        .our-pride-section-groups  h1{ 
-            
-            font-size: 24px;
-        }
-        .our-pride-section-groups  h2{ 
-        
-            font-size: 25px;
-            line-height: 35px;
-            letter-spacing: 1px;
-            font-weight: 600;
-            margin-top: -10px;
-        
-        }
-        .our-pride-section-groups  h3{ 
-        
-            font-size: 14px;
-            line-height: 16px;   
-        }
-
-        .our-pride-section-groups {
-            
-            grid-template-columns: repeat(auto-fit, minmax( 100%, 1fr));
-            
-        
-        }
-
         .social-icons div {
             width: auto;
             height: auto;
         }
+
+        .we-are-change-agents{
+            height: 500px;
+            
+        }
+
+
+
+#telephone, #subscribe, #email {
+    width: 100%;
+}
+
     
 }
 
