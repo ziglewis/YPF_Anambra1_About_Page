@@ -252,7 +252,7 @@ height: auto;
     text-align: center;
     background-color: #ffffff;
     margin-top: -5px;
-    padding: 20px 12%;
+    padding: 20px 13% 100px;
 
 }
 .About-us-text h1 {
@@ -286,16 +286,40 @@ height: auto;
 
 .video-and-content {
     display: flex;
-    gap: 20px;
+    gap: 4%;
     color: black;
+    margin-top: -50px;
+    justify-content: space-between;
 }
 
 .video-and-content p {
     width: calc(100% - 463px) ;
+    color: rgb(153,153,153);
+    font-size: 18px;
+    line-height: 32.4px;
+    font-weight: 400px;
+    text-align: start;
 }
 
 
-/* SECTION 8 OF THE FOOTER STARTS HERE  */
+
+
+.we-are-change-agents{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("images/Ypf-About-2-hero.png");
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 300px;
+    margin-top: -20px;
+    text-align: center;
+    
+    
+}
+
+
+
+/*THE FOOTER STARTS HERE  */
 
 .contact-us {
     display: flex;
