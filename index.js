@@ -104,5 +104,18 @@ let poUpOnAndOff = () => {
 //  All about events drop-down navbar ends here         29th-May-2023
 
 
+      //HANDLING THE CLEARING OF THE NEWSLETTER SUBSCRIPTION FORM AFTER SUBMISSION
+
+    
+      let newsLetterForm = document.querySelector(".news-letter form")
+
+      let newsLetterSubmitBtn = document.querySelector("#subscribe")
+ 
+       window.addEventListener("pageshow", function() {
+         newsLetterForm.reset()
+         
+       });
+      
+
       
     
