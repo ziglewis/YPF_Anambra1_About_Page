@@ -377,6 +377,7 @@ text-transform: capitalize;
 
 .blog a {
     text-decoration: none;
+    cursor: pointer;
 }
 
 .blog a p{
