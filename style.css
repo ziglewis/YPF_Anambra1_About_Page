@@ -336,7 +336,44 @@ text-transform: capitalize;
     }
 
 
+    /* THE SECTION THREE BEGINS HERE AFTER THE HERO PAGE */
 
+    .weekly-events {
+        text-align: center;
+        background-color: #ffffff;
+        padding: 20px 13% ;
+        color: #848484;
+    }
+    .weekly-events h2 {
+        color: #6bc329;
+        line-height: 35px;
+        font-size: 26px;
+    }
+    
+    .each-weekly-events-div h3 {
+        margin-top: 60px;
+        color: #000;
+        font-size: 22px;
+        font-family: Raleway;
+
+    }
+
+    .each-weekly-events-div img {
+
+        width: 100%;
+        
+        max-width: 600px;
+        padding: 0px 0px 30px;
+        
+        
+    }
+
+    .content-div {
+        text-align: left;
+
+    }
+
+  
 
 /*THE FOOTER STARTS HERE  */
 
