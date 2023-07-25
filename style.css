@@ -350,12 +350,40 @@ text-transform: capitalize;
         font-size: 28px;
         font-family: Raleway;
         padding: 10px 2%;
+        margin-bottom: 40px;
     }
     
     .each-weekly-events-div h3 {
         margin-top: 25px;
         font-size: 22px;
+        padding: 20px 0px;
         
+        font-weight: 900;
+        text-decoration: underline;
+        
+    }
+
+    ul li {
+       
+        margin-left: -20px;
+        list-style-type: square;
+        
+    }
+
+    .content-div button {
+    color: white;
+    font-weight: bold;
+    background-color: #6bc329;
+    font-size: 15Px;
+    padding: 18px 30px;
+    border-radius: 3px;
+    border: none;
+    margin-bottom: 50px;
+
+    }
+
+    .content-div button:hover {
+        background-color: #296a12;
 
     }
 
@@ -364,14 +392,13 @@ text-transform: capitalize;
         width: 100%; 
         max-width: 600px;
         padding: 0px 0px 10px;
+    
         
         
     }
     .each-weekly-events-div {
         background-color: #f0f0f0;
         padding: 1px 5%;
-        margin-bottom: 80px;
-        margin-top: 40px;
     }
 
 
