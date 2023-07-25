@@ -104,6 +104,79 @@ let poUpOnAndOff = () => {
 //  All about events drop-down navbar ends here         29th-May-2023
 
 
+
+            // SWIPPER JS CODE STARTS
+
+
+
+let swiper = new Swiper('.swiper', {
+ 
+    direction: 'horizontal',
+    loop: true,
+    slidesPerView: "1",
+    autoplay: {
+      delay: 2000,
+    disableOnInteraction: false,
+    pauseOnMouseEnter: true,
+   
+      },
+      spaceBetween: 20,
+      speed: 1500,
+      transition: {
+        duration: 2000,
+        easing: 'linear',
+        delay: 5000
+      },
+      
+  
+      breakpoints: {
+        
+        1000: {
+          slidesPerView: 2,
+        },  
+      },
+      
+    navigation: {
+      nextEl: '.testimonial-scroll-btn-right',
+      prevEl: ".testimonial-scroll-btn-left"
+    },
+  
+  });
+   
+  
+  
+  
+  let mySwiperWrapper = document.querySelector(".swiper-wrapper")
+  let mySwiperLeftBtn = document.querySelector(".swipe-left")
+  let mySwiperRightBtn = document.querySelector(".swipe-right")
+  
+  mySwiperWrapper.addEventListener("mouseenter", function(){
+  
+  
+  
+    mySwiperLeftBtn.style.visibility = "visible"
+    mySwiperRightBtn.style.visibility = "visible"
+    swiper.disable()
+  
+  })
+  
+  mySwiperWrapper.addEventListener("mouseleave", function(){
+  
+    mySwiperLeftBtn.style.visibility = "hidden"
+    mySwiperRightBtn.style.visibility = "hidden"
+    swiper.enable()
+  
+  })
+  
+  // SWIPER JS CODE ENDS
+
+
+
+
+
+
+
+
       //HANDLING THE CLEARING OF THE NEWSLETTER SUBSCRIPTION FORM AFTER SUBMISSION
 
     
