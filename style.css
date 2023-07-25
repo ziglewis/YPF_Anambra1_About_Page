@@ -340,36 +340,49 @@ text-transform: capitalize;
 
     .weekly-events {
         text-align: center;
-        background-color: #ffffff;
-        padding: 20px 13% ;
+        background-color: #f0f0f0;
+        padding: 20px 12% ;
         color: #848484;
     }
     .weekly-events h2 {
         color: #6bc329;
         line-height: 35px;
-        font-size: 26px;
+        font-size: 28px;
+        font-family: Raleway;
+        padding: 10px 2%;
     }
     
     .each-weekly-events-div h3 {
-        margin-top: 60px;
+        margin-top: 25px;
         color: #000;
         font-size: 22px;
-        font-family: Raleway;
+        
 
     }
 
     .each-weekly-events-div img {
 
-        width: 100%;
-        
+        width: 100%; 
         max-width: 600px;
-        padding: 0px 0px 30px;
+        padding: 0px 0px 10px;
         
         
     }
+    .each-weekly-events-div {
+        background-color: #ffffff;
+        padding: 1px 5%;
+        margin-bottom: 80px;
+        margin-top: 40px;
+    }
+
+
 
     .content-div {
         text-align: left;
+        font-size: 18px;
+        line-height: 36px;
+        font-weight: 400;
+        vertical-align: baseline;
 
     }
 
@@ -586,7 +599,7 @@ footer p{
     }
 
     .About-us-text {
-        padding: 20px 13% 100px;
+        padding: 20px 12% 100px;
     
     }
 
@@ -640,6 +653,12 @@ footer p{
      .we-are-change-agents{
         height: 300px;
         padding: 5%;
+        
+    }
+
+    .weekly-events {
+       
+        padding: 20px 0% ;
         
     }
             
