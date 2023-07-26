@@ -294,7 +294,7 @@ height: auto;
 
 .video-and-content p {
     width: calc(100% - 463px) ;
-    color: rgb(153,153,153);
+    color: rgb(132,132, 132);
     font-size: 18px;
     line-height: 32.4px;
     font-weight: 400px;
@@ -342,7 +342,7 @@ text-transform: capitalize;
         text-align: center;
         background-color: #ffffff;
         padding: 20px 12% ;
-        color: rgb(51,51,51);
+        color: rgb(132,132, 132);
         
     }
     .weekly-events h2 {
