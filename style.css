@@ -340,13 +340,15 @@ text-transform: capitalize;
 
     .weekly-events {
         text-align: center;
-        background-color: #ffffff;
+        /* background-color: #ffffff; */
+        background-color: #f0f0f0;
         padding: 20px 12% ;
         color: rgb(132,132, 132);
         
     }
     .weekly-events h2 {
-        color: rgb(100, 100, 100);
+        /* color: rgb(100, 100, 100); */
+        color: #6bc329;
         line-height: 35px;
         font-size: 28px;
         font-family: Raleway;
@@ -355,12 +357,13 @@ text-transform: capitalize;
     }
     
     .each-weekly-events-div h3 {
-        margin-top: 25px;
+        
         font-size: 28px;
-        padding: 20px 0px 10px;
+        padding: 40px 0px 0px;
         font-weight: 900;
-        /* text-decoration: underline; */
-        color: #6bc329;
+        text-align: left;
+        /* color: rgb(100, 100, 100); */
+        
         
     }
 
@@ -391,6 +394,12 @@ text-transform: capitalize;
     margin-bottom: 50px;
   }
 
+  .sunday-meetup-button {
+    margin-bottom: 50px;
+  }
+
+
+
     .each-weekly-events-div img {
 
         width: 100%; 
@@ -399,7 +408,10 @@ text-transform: capitalize;
     }
     .each-weekly-events-div {
         background-color: #f0f0f0;
-        padding: 1px 5%;
+        background-color: #ffffff;
+        padding: 0px 5%;
+        border-radius: 10px;
+        margin-bottom: 50px;
     }
 
 
@@ -782,7 +794,7 @@ footer p{
 
     .weekly-events {
        
-        padding: 20px 0% ;
+        padding: 20px 3% ;
         
     }
            
