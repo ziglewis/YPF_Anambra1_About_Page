@@ -292,6 +292,10 @@ height: auto;
     justify-content: space-between;
 }
 
+iframe {
+    border-radius: 10px;
+}
+
 .video-and-content p {
     width: calc(100% - 463px) ;
     color: rgb(132,132, 132);
@@ -370,7 +374,7 @@ text-transform: capitalize;
     ul li {
        
         margin-left: -20px;
-        list-style-type: square;
+        list-style-type: disc;
         
     }
 
@@ -380,7 +384,7 @@ text-transform: capitalize;
     background-color: #6bc329;
     font-size: 15px;
     padding: 18px 30px;
-    border-radius: 3px;
+    border-radius: 10px;
     border: none;
 
     }
@@ -404,10 +408,10 @@ text-transform: capitalize;
 
         width: 100%; 
         max-width: 600px;
-        padding: 0px 0px 10px; 
+        border-radius: 10px;
     }
     .each-weekly-events-div {
-        background-color: #f0f0f0;
+        /* background-color: #f0f0f0; */
         background-color: #ffffff;
         padding: 0px 5%;
         border-radius: 10px;
@@ -724,7 +728,6 @@ footer p{
 
     .video-and-content p {
         width: 100%;
-        color: rgb(153,153,153);
         font-size: 18px;
         line-height: 32.4px;
         font-weight: 400px;
