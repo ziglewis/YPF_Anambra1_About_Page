@@ -472,6 +472,7 @@ text-transform: capitalize;
     color: #848484;
      /* width: 500px;  */
     box-sizing: border-box;
+    border-radius: 5px;
     padding: 20px 50px;
     min-height: 250px;
 }
@@ -508,6 +509,7 @@ text-transform: capitalize;
 
 .slide-button {
     display: flex;
+    justify-content: space-between;
     gap: 10px;
     margin-top: 20px;
 }
@@ -520,6 +522,7 @@ text-transform: capitalize;
     color: #cccccc;
     font-weight: 300;
     font-size: 20px;
+    border-radius: 5px;
 }
 
 .swipe-left, .swipe-right {
