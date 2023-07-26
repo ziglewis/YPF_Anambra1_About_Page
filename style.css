@@ -346,7 +346,7 @@ text-transform: capitalize;
         
     }
     .weekly-events h2 {
-        color: #6bc329;
+        color: black;
         line-height: 35px;
         font-size: 28px;
         font-family: Raleway;
@@ -356,10 +356,11 @@ text-transform: capitalize;
     
     .each-weekly-events-div h3 {
         margin-top: 25px;
-        font-size: 22px;
+        font-size: 28px;
         padding: 20px 0px;
         font-weight: 900;
-        text-decoration: underline;
+        /* text-decoration: underline; */
+        color: #6bc329;
         
     }
 
