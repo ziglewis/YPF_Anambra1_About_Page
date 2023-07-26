@@ -110,7 +110,14 @@ let poUpOnAndOff = () => {
 
 
 let swiper = new Swiper('.swiper', {
- 
+
+
+  effect: 'cube',
+  cubeEffect: {
+    slideShadows: false,
+  },
+
+    
     direction: 'horizontal',
     loop: true,
     slidesPerView: "1",
@@ -121,7 +128,7 @@ let swiper = new Swiper('.swiper', {
    
       },
       spaceBetween: 20,
-      speed: 1500,
+      speed: 2000,
       transition: {
         duration: 2000,
         easing: 'linear',
@@ -132,7 +139,7 @@ let swiper = new Swiper('.swiper', {
       breakpoints: {
         
         1000: {
-          slidesPerView: 2,
+          slidesPerView: 1,
         },  
       },
       

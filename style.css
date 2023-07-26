@@ -424,6 +424,8 @@ text-transform: capitalize;
     background-color: #ffffff;
     color: #6bc329;
     /* border: 3px solid yellow; */
+    max-width: 500px;
+    margin: auto;
 }
 
 
@@ -446,6 +448,7 @@ text-transform: capitalize;
      /* width: 500px;  */
     box-sizing: border-box;
     padding: 20px 50px;
+    min-height: 250px;
 }
 
 .each-testimonial-box  p {
@@ -773,7 +776,12 @@ footer p{
         padding: 20px 0% ;
         
     }
-            
+           
+    
+    .each-testimonial-box {
+
+        padding: 20px 30px;
+    }
 
     .contact-us {
     
@@ -795,9 +803,33 @@ footer p{
         }
 
 
+        @media (max-width: 400px) { 
+
+
+            .testimonials-section{
+                    text-align: center;
+                    padding: 15px 10%;
+                }
+
+             .testimonials-section h2 {
+                font-size: 20px;
+                }
+
+        .each-testimonial-box {
+            padding: 20px 30px;
+            min-height: 270px;
+        }
+
+    }
+
+
 /* 4th breakpoint three */
 @media (max-width: 360px) { 
 
+
+    .each-testimonial-box {
+        min-height: 300px;
+    }
   
       .minimize-icon{
 
@@ -833,6 +865,25 @@ footer p{
 }
 
 
+        @media (max-width: 300px) { 
+        .each-testimonial-box {
+            min-height: 350px;
+        }
+        }
+
+        @media (max-width: 260px) { 
+            .each-testimonial-box {
+                min-height: 390px;
+            }
+            }
+
+            @media (max-width: 230px) { 
+                .each-testimonial-box {
+                    min-height: 420px;
+                }
+                }
+    
+
 /* 5th breakpoint */
 @media (max-width: 200px) { 
 
@@ -850,6 +901,9 @@ footer p{
             height: 500px;
             
         }
+        .testimonials-section h2 {
+            font-size: 17px;
+            }
 
 
 
