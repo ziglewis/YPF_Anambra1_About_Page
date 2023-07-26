@@ -267,7 +267,7 @@ height: auto;
 }
 
 .About-us-text h2 {
-    color: black;
+    color: rgb(100, 100, 100);
     font-size: 28px;
     line-height: 30px;
     letter-spacing: 4px;
@@ -280,7 +280,7 @@ height: auto;
 .line {
     width: 70px;
     height: 2px;
-    background-color: black;
+    background-color: rgb(100, 100, 100);
     margin: 0px auto 100px;
 }
 
@@ -346,7 +346,7 @@ text-transform: capitalize;
         
     }
     .weekly-events h2 {
-        color: black;
+        color: rgb(100, 100, 100);
         line-height: 35px;
         font-size: 28px;
         font-family: Raleway;
