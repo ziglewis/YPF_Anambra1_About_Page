@@ -357,7 +357,7 @@ text-transform: capitalize;
     .each-weekly-events-div h3 {
         margin-top: 25px;
         font-size: 28px;
-        padding: 20px 0px;
+        padding: 20px 0px 10px;
         font-weight: 900;
         /* text-decoration: underline; */
         color: #6bc329;
