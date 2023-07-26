@@ -193,7 +193,7 @@ let swiper = new Swiper('.swiper', {
 
    // HANDLING THE SORTING OF THE BLOG WHEN IT IS LINKED TO FROM THE FOOTER BLOG SECTION
   
-   let myAllFooterBlogLinks = document.querySelectorAll (".blog a")
+   let myAllFooterBlogLinks = document.querySelectorAll (".blog p")
   
    myAllFooterBlogLinks.forEach(function(blogCategory) {
        

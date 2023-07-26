@@ -539,13 +539,11 @@ text-transform: capitalize;
     padding-right: 10px;
 }
 
-.blog a {
+
+.blog p{
+    color: #ffffff;
     text-decoration: none;
     cursor: pointer;
-}
-
-.blog a p{
-    color: #ffffff;
 }
 
 #email {
