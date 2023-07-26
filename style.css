@@ -418,6 +418,14 @@ text-transform: capitalize;
 
 
 
+.testimonials-section-wrapper {
+    width: 100%;
+    background-color: #ffffff;
+    margin: 0px;
+
+
+}
+
 .testimonials-section{
     text-align: center;
     padding: 15px 12%;
